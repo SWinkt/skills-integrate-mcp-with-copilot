@@ -39,6 +39,10 @@ main {
   main {
     grid-template-columns: 2fr 1fr;
   }
+
+  #signup-container {
+    margin-bottom: 20px;
+  }
 }
 
 section {
@@ -197,4 +201,12 @@ footer {
   margin-top: 30px;
   padding: 20px;
   color: #666;
+}
+
+#signup-container {
+  order: 1;
+}
+
+#activities-container {
+  order: 2;
 }
